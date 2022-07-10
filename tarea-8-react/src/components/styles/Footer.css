@@ -1,0 +1,37 @@
+.footer {
+    font: 100% sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #F66B0E;
+    color: #EFEFEF;
+    margin: none;
+    padding: 20px;
+    list-style: none;
+}
+
+.footer__social {
+    list-style: none;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-self: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__p {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-grow: 4;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}

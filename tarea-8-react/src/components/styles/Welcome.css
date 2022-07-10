@@ -1,0 +1,22 @@
+.welcome {
+    font: 100% sans-serif;
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: 2;
+    background-color: #EFEFEF;
+    color: black;
+    margin: none;
+}
+
+.welcome__title {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome__p{
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+}

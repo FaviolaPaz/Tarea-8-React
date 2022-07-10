@@ -1,0 +1,33 @@
+.services {
+    font: 100% sans-serif;
+    background-color: #205375;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+[class ^="service__"]{
+    display: grid;
+    place-self: center;
+    padding: 10px;
+}
+
+.services__img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    display: grid;
+    place-self: center;
+}
+
+.service__h5 {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.services__p {
+    padding: 10px;
+    font-size: 18px;
+    display: grid;
+    place-self: center;
+}

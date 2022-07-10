@@ -1,0 +1,28 @@
+.navbar {
+  font: 100% sans-serif;
+  background-color: #112B3C;
+  margin: 0;
+  padding: 1rem 0;
+  display: grid;
+  -ms-grid-columns: (1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+  
+[class^="navbar__list--"] {
+  display: grid;
+  place-self: center;
+  list-style: none;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+  
+.navbar__logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 2rem;
+}

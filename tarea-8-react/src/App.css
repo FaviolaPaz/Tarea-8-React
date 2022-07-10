@@ -1,0 +1,51 @@
+@media (min-width: 320px) {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .carousel__img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .services {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .carousel__img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .services {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .carousel__img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
